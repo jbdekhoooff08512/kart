@@ -168,7 +168,6 @@ model AdminConfig {
   attendanceTiers   Json?
   createdAt         DateTime @default(now())
   updatedAt         DateTime @updatedAt
-  referralTiers     Json?
 
   @@map("admin_config")
 }

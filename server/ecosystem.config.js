@@ -9,6 +9,7 @@ module.exports = {
       env: {
         NODE_ENV: 'production',
         PORT: 82,
+	TRUST_PROXY: '1'
         DATABASE_URL: 'postgresql://win5x_user:Jhx82ndc9g@j@127.0.0.1:5432/win5x_game',
         REDIS_URL: 'redis://localhost:6379',
         JWT_SECRET: 'your_jwt_secret_key',
