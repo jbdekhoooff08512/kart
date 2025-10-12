@@ -44,6 +44,7 @@ const io = new SocketIOServer(server, {
       // Allow specific origins in production
       const allowedOrigins = [
         'https://nymex.store',
+	'https://www.nymex.store',
         'http://localhost:3000',
         'http://localhost:5173',
         'http://localhost:8080'

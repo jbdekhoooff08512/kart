@@ -59,6 +59,8 @@ model Admin {
   paymentAuditLogs     PaymentAuditLog[]
   approvedTransactions Transaction[]       @relation("ApprovedBy")
   approvedWithdrawals  WithdrawalRequest[]
+  referralTiers         Json?    // Add this line
+  attendanceTiers       Json?
 
   @@map("admins")
 }
